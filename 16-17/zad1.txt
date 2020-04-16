@@ -1,1 +1,4 @@
-#treść
+
+Dana jestr struktura opisująca listę jednokierunkową dla liczb rzeczywistych:struct Node{Node* next; double value;}Proszę zaimplementować funkcjęvoid Sort( Node* list ), która otrzymuje na wejściu listęliczb rzeczywistych (z wartownikiem), wygenerowaną zgodnie z rozkładem jednostajnym naprzedziale [0,10) i sortuje jej zawartość w kolejności niemalejącej. Funkcja powinna być możliwiejak najszybsza (biorąc pod uwagę warunki zadania). Proszę oszacować złożoność zaimplementowanej funkcji.
+
+Ze względu na rozkład naturalny najlepiej będzie zastosować bucket-sorta zapeni nam to oczekoiwaną złożoność na poziomie O(n)
